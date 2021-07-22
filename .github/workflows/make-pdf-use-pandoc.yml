@@ -1,7 +1,9 @@
 name: Generate Install.pdf using pandoc
 
-on: push
-  workflow_dispatch
+on:
+  push:
+
+  workflow_dispatch:
 
 jobs:
   convert_via_pandoc:
