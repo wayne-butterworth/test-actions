@@ -117,7 +117,7 @@ i. Open Command Prompt (with elevated privileges as necessary) and execute the f
 
 ii. Verify the output below: 
 
-![output from sc delete iPharmService](DeleteService.png)
+![output from sc delete iPharmService](/doc/DeleteService.png)
 
 * For versions 3.x – 5.x: 
 
