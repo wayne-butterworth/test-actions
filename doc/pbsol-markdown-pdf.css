@@ -1,0 +1,92 @@
+/* Table styles ripped from Github */
+table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table tr {
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+table th {
+    font-weight: 600;
+}
+
+table td,
+table th {
+    border: 1px solid #dfe2e5;
+    padding: 6px 13px;
+}
+
+table tr {
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+table > thead > tr > th {
+    border-bottom: 0;
+}
+/* End of table styles */
+/* Numbered headings */
+body {
+    counter-reset: h1
+}
+
+h1 {
+    counter-reset: h2;
+    font-size: 16px;
+}
+
+h2 {
+    counter-reset: h3;
+    font-size: 14px;
+}
+
+h3 {
+    counter-reset: h4;
+    font-size: 12px;
+}
+
+h1:before {
+    counter-increment: h1;
+    content: counter(h1) ". "
+}
+
+h2:before {
+    counter-increment: h2;
+    content: counter(h1) "." counter(h2) ". "
+}
+
+h3:before {
+    counter-increment: h3;
+    content: counter(h1) "." counter(h2) "." counter(h3) ". "
+}
+
+h4:before {
+    counter-increment: h4;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "
+}
+/* End numbered headings */
+
+p,tbody,li {
+    font-size: 9px;
+    line-height: normal;
+}
