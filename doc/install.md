@@ -6,13 +6,13 @@ i.Pharmacy Installation Guide
 
 # This Document
 ## Purpose
-The purpose of this document is to describe the installation and configuration of DXC’s i.Pharmacy PBS Online services to enable single and multisite PBS online claiming and reporting.
+The purpose of this document is to describe the installation and configuration of Dedalus’ i.Pharmacy PBS Online services to enable single and multisite PBS online claiming and reporting.
 
 The i.Pharmacy PBS Online Service has have been developed to use the Services Australia Web Services Adaptor for the Encoding and Decoding of secure messages 
 sent and received from Medicare Australia for PBS Online. 
 
 ## Audience
-DXC and Site technical staff responsible for installing interface software for i.Pharmacy will find this document of use. 
+Dedalus and Site technical staff responsible for installing interface software for i.Pharmacy will find this document of use. 
 
 ## Important Notes
 * Medicare Australia must be contacted prior to go live to advise them that your hospital is intending to use the PBS Online functionality.   
@@ -229,9 +229,9 @@ These settings control the service.
 |ServiceInterval|Number of seconds to wait before querying the database for the next group of claims.|DXC recommended value: 15|Required|
 |RecServiceInterval|Number of seconds to wait before querying the database for the next group of reconciliation report requests.|DXC recommended value: 60|Required|
 |AllowableTimeDiff|Number of minutes|DXC recommended value: 15|Required|
-|ProductId|Product Identifier for connecting to PBS Online|DXC specified value: "i.PharmacyPBSOnlineV7", <br>do not change unless advised to by DXC|Required|
-|APIKey|API Key for connecting to PBS Online|DXC specified value: "7c9b6e66273d65c98bfa66b05f22a5d9", <br>do not change unless advised to by DXC|Required|
-|BasePath|Base url of PBS Online web servies|DXC specified value: "https://test.healthclaiming.api.humanservices.gov.au/claiming/ext-vnd/pbsportal/rest/b2b", <br>do not change unless advised to by DXC|Required|
+|ProductId|Product Identifier for connecting to PBS Online|DXC specified value: "i.PharmacyPBSOnlineV7", <br>do not change unless advised to by Dedalus|Required|
+|APIKey|API Key for connecting to PBS Online|DXC specified value: "7c9b6e66273d65c98bfa66b05f22a5d9", <br>do not change unless advised to by Dedalus|Required|
+|BasePath|Base url of PBS Online web servies|DXC specified value: "https://test.healthclaiming.api.humanservices.gov.au/claiming/ext-vnd/pbsportal/rest/b2b", <br>do not change unless advised to by Dedalus|Required|
 |ProdaTokenUrl|Url of PCMS Endpoint, to request tokens from| eg "https://localhost:5001/Token/Endpoint/Iph001/ServiceProvider/pbsol"|Required|
 |PrivateKeyLocation|Location of private key used to connect to PCMS| eg "path\\to\\my.pfx"|Required|
 |PrivatekeyPassword|Password of private key used to connect to PCMS||Optional|
@@ -258,7 +258,7 @@ Refer to Additional help for configuration file set up for more information abou
 |---|---|---|---|
 |SiteSid|The Site ID in the database||Required|
 |ApprovalNum|PBS Online Approval Number||Required|
-|LocationID|This value would have been issued by DXC to the site when enabling PBS Online. Contact DXC support if uncertain.||Required|
+|LocationID|This value would have been issued by DXC to the site when enabling PBS Online. Contact Dedalus support if uncertain.||Required|
 
     {
         "ServerName": "vmaptm-dbs03\\SQL2012_B",
