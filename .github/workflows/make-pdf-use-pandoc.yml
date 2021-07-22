@@ -14,4 +14,4 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             --standalone
             --output=Install.pdf
-            doc/Install.md 
+            doc/install.md 
