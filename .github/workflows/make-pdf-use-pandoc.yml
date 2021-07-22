@@ -16,3 +16,8 @@ jobs:
             --standalone
             --output=Install.pdf
             test2.md
+            
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: test2.pdf
