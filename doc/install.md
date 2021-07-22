@@ -36,9 +36,9 @@ Throughout the document, several system dependant tokens are used as outlined in
 
 |Token|Definition|
 |---|---|
-|[ProgramsPath] |Substitute the Program Files path depending upon region and architecture and operating system. This path may vary between various components that make up the PBS online solution.  <br>Examples:  <br>C:\Program Files (x86) <br>C:\Program Files |
-|[InstallationPath] |The path where the PBS Online Service has been installed. <br>Examples: <br>C:\Program Files (x86)\i.Pharmacy PBS Online\ <br>E:\Apps\i.Pharmacy PBS Online\ |
-|[PackagePath] |Substitute this token with the path to the PBS Online installation folder. <br>Example: <br>C:\installs\PBSOnlineTemp |
+|[ProgramsPath] |Substitute the Program Files path depending upon region and architecture and operating system. This path may vary between various components that make up the PBS online solution.  <br>Examples:  <br>C:\\Program Files (x86) <br>C:\\Program Files |
+|[InstallationPath] |The path where the PBS Online Service has been installed. <br>Examples: <br>C:\\Program Files (x86)\\i.Pharmacy PBS Online\\ <br>E:\\Apps\\i.Pharmacy PBS Online\\ |
+|[PackagePath] |Substitute this token with the path to the PBS Online installation folder. <br>Example: <br>C:\\installs\\PBSOnlineTemp |
 |[PBSServer] |Substitute this token with the name of the PBS Online Server. <br>Examples: <br>PBSOnlineServer / 192.168.123.321 |
 |[PBSDB] |Substitute for the name of the i.Pharmacv Database: <br>Example: <br>iPharmacyProd |
 |[PBSDBPassword] |Substitute with a clear text password that has been used by i.Pharmacy applications, against the database being used. <br>Example: <br>stoccapwd |
