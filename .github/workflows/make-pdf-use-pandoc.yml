@@ -20,4 +20,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: output
-          path: test2.pdf
+          path: Install.pdf
